@@ -2,7 +2,6 @@ package com.example.marko.chatclient;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.AsyncTask;
@@ -14,7 +13,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,14 +23,6 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.util.Scanner;
-
-/*
-
-TODO: AppIcon
-TODO: Sounds
-TODO: Push Benachritigung??
-*/
 
 public class MainActivity extends Activity {
 
